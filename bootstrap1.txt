@@ -1,0 +1,121 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Bootstrap5</title>
+    <style>
+        .btn {
+            border-radius: 15px;
+        }
+
+        body {
+            padding: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    <br><br>
+    <h1>h1 bootstrap heading</h1>
+    <h2>h2 bootstrap heading</h2>
+    <h3>h3 bootstrap heading</h3>
+    <h4> h4 bootstrap heading</h4>
+    <br><br>
+
+
+    <h1>Bootstrap heading
+        <small class="text-muted">Sub heading</small>
+    </h1>
+    <br>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odio voluptatibus eligendi itaque laudantium
+        molestias animi quasi rem tempora fuga fugiat maxime voluptatum, consequuntur vel accusantium eos beatae
+        cupiditate iure!</p>
+    <br>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati impedit, iste rem veritatis iure
+        id dolorum
+        animi omnis iusto aliquid aspernatur accusamus! Voluptates accusamus quaerat id fugit tenetur a sapiente.</p>
+    <br>
+    <p class="text-lowercase">LOREM ipsum dolor sit amet consectetur adipisicing elit. Similique, possimus!</p>
+    <p class="text-uppercase">fatmanur</p>
+    <p class="text-capitalize">capitalized text</p>
+
+    <p class="text-primary">text-primaryyy</p>
+    <p class="text-secondary">text text-secondaryyy</p>
+    <p class="text-succes">text success</p>
+    <p class="text-danger">text dangerr</p>
+    <p class="text-warning"> text warning</p>
+    <p class="text-info">text infooo</p>
+    <p class="text-dark">text darkk</p>
+    <br>
+    <div class="bg-primary"> bg-primaryy</div>
+    <br>
+    <div class="bg-info"> bg infooo</div>
+
+    <br>
+    <div class="card" style="width: 18rem;">
+        <img src="data:image/jpeg;base64,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"
+            class="card-img-top" alt="Flower">
+        <div class="card-body">
+            <h5 class="card-title">Rose</h5>
+            <p class="card-text">One of the dark pink rose </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <br><br>
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://media.istockphoto.com/id/1399867745/photo/purple-magnolia-flower-magnolia-felix-isolated-on-white-background-with-clipping-path.webp?b=1&s=170667a&w=0&k=20&c=K2m4YFSJ7V3kqnuMtUkBqNEk4QrdHi7oGJuxRe1OXN8="
+                    class="d-block w-100" alt="first photo">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8PYoC4U4Z7jFVf4SlHlw1-XdyherebsF6J7d2HaLEIQIZ5MlEkl6OHlZ8Eru1VdNX9Fk&usqp=CAU"
+                    class="d-block w-100" alt="second photo">
+            </div>
+            <div class="carousel-item">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVn1OZrp9djyrOckx3WwBL5LMDlYm3LJyKXQz3GRIoyG72d_YPddHWyM48IKg68klkrJA&usqp=CAU"
+                    class="d-block w-100" alt="third photo">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>
